@@ -3,5 +3,17 @@
     position: relative;
     &_image{
         height: 223px;
+        border-radius: 25px;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(70%);
+        &-text{
+            position: absolute;
+            font-size: 48px;
+            color: white;
+            z-index: 1;
+            top: 78px;
+            left: 273px;
+        }
     }
 }
