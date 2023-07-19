@@ -1,0 +1,35 @@
+@import "../abstracts/variables";
+
+.apartments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 43px;
+    gap: 60px;
+    background-color: $background-grey;
+    border-radius: 25px;
+    padding: 56px 50px;
+    
+    &__item{
+        position: relative;
+        &-info{
+            position: relative;
+        }
+        &-title{
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+            font-size: 18px;
+            color: white;
+            width: 40%;
+            display: flex;
+            text-align: start;
+        }
+        &-image{
+            height: 340px;
+            width: 340px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+    }
+}
