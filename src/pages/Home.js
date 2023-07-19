@@ -4,7 +4,7 @@ import Apartments from "../components/Apartments";
 
 const Home = () => {
     return (
-        <div>
+        <div className="main">
             <Banner />
             <Apartments />
         </div>
