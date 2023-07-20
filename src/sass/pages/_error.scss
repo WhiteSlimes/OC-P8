@@ -1,0 +1,20 @@
+.error{
+    margin-bottom: 89px;
+    color: #FF6060;
+    margin-top: 139px;
+    text-align: center;
+    &__title{
+        font-weight: 700;
+        font-size: 288px;
+        padding: 0;
+    }
+    &__message{
+        font-size: 36px;
+        margin-top: 139px;
+        margin-bottom: 139px;
+    }
+    &__link{
+        font-size: 18px;
+        color: #FF6060;
+    }
+}

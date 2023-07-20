@@ -4,6 +4,7 @@ import Home from "./pages/Home.js";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 import About from "./pages/About.js";
+import Error from "./pages/Error.js";
 
 function AppRouter(){
     return(
@@ -13,6 +14,7 @@ function AppRouter(){
                 <Routes>
                     <Route path="/" element={<Home />}/>
                     <Route path="/about" element={<About />}/>
+                    <Route path="/*" element={<Error />} />
                 </Routes>
             </div>
             <Footer />
