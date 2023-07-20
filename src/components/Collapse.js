@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import ArrowUp from "../assets/arrow_up.png";
-import ArrowDown from "../assets/arrow_down.png";
+
 import "../sass/components/_collapse.scss";
 
 function Collapse({title, description, page}){
@@ -18,11 +18,11 @@ function Collapse({title, description, page}){
 
     return(
         <div className={`collapse ${getCollapsePage()}`}>
-            <button className="collapse__button" onClick={toggleCollapse}>
-                <span className="collapse__title">{title}</span>
-                <img src={isCollapsed ? ArrowDown : ArrowUp} alt="flèche description" className={`collapse__arrow ${isCollapsed ? "collapse__arrow--down" : "collapse__arrow--up"}`} />
-            </button>
-            {!isCollapsed && <div className="collapse__description">{description}</div>}
+            <div className="collapse__header">
+                <h2 className="collapse__title">{title}</h2>
+                <img className={`collapse__arrow ${isCollapsed ? "collapse__arrow--down" : "collapse__arrow--up"}`} src={ArrowUp} alt="flèche description" onClick={toggleCollapse}/>
+            </div>
+            {!isCollapsed && <div className={`collapse__content ${!isCollapsed ? "collapse__content--visible" : "collapse__content--hidden"}`}>{description}</div>}
         </div>
     )
 }
