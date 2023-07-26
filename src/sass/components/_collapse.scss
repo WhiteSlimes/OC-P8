@@ -79,6 +79,9 @@
     .collapse__title{
         font-size: 18px;
     }
+    .collapse__content{
+        font-size: 16px;
+    }
 }
   
 /* Small devices (phones, less than 768px) */
@@ -93,6 +96,9 @@
         margin-right: 12px;
     }
     .collapse__title{
+        font-size: 13px;
+    }
+    .collapse__content{
         font-size: 13px;
     }
 }
