@@ -1,0 +1,49 @@
+.host{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+    &__name{
+        color: #FF6060;
+        font-size: 18px;
+        text-align: end;
+        padding-right: 10px;
+        width: 50%;
+    }
+    &__picture{
+        width: 64px;
+        height: 64px;
+        border-radius: 50px;
+    }
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1040px) */
+@media screen and (max-width: 1040px) {
+
+    .host{
+        margin-top: 16px;
+        &__name{
+            font-size: 15px;
+        }
+        &__picture{
+            width: 55px;
+            height: 55px;
+        }
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 768px) {  
+
+    .host{
+        &__name{
+            font-size: 12px;
+        }
+        &__picture{
+            width: 32px;
+            height: 32px;
+        }
+    }    
+}

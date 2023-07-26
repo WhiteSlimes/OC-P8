@@ -16,8 +16,8 @@ const Banner = () =>{
 
     return (
         <div className="banner">
-            {location.pathname === '/' && <p className="banner_image-text">Chez vous, et partout ailleurs</p>}
-            <img src={getBannerImage()} alt="paysage" className="banner_image"/>
+            {location.pathname === '/' && <p className="banner__image-text">Chez vous, et partout ailleurs</p>}
+            <img src={getBannerImage()} alt="paysage" className="banner__image"/>
         </div>
     );
 }

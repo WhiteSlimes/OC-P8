@@ -65,3 +65,34 @@
         }
     }
 }
+
+/* Medium devices (tablets, less/equal than 1040px) */
+@media screen and (max-width: 1040px) {
+
+    .collapse__header{
+        font-size: 18px;
+        padding: 16px 10px 23px 10px;
+    }
+    .collapse__arrow{
+        width: 18px;
+    }
+    .collapse__title{
+        font-size: 18px;
+    }
+}
+  
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 768px) {
+
+    .collapse__header{
+        font-size: 13px;
+        padding: 5px 0px 5px 10px;
+    }
+    .collapse__arrow{
+        width: 13px;
+        margin-right: 12px;
+    }
+    .collapse__title{
+        font-size: 13px;
+    }
+}

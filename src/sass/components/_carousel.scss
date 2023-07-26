@@ -23,9 +23,43 @@
         color: white;
         position: absolute;
         top: 1;
-        bottom: 0;
+        bottom: 24px;
         right: 0;
         left: 0;
         text-align: center;
+    }
+}
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1040px) */
+@media screen and (max-width: 1040px) {
+
+    .carousel{
+        &__image{
+            height: 335px;
+        }
+        &__arrow{
+            height: 40px;
+        }
+        &__indicator{
+            font-size: 15px;
+        }
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 768px) {
+
+    .carousel{
+        &__image{
+            height: 255px;
+        }
+        &__arrow{
+            height: 24px;
+        }
+        &__indicator{
+            font-size: 0px;
+        }
     }
 }

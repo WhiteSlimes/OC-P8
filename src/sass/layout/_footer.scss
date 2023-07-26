@@ -11,3 +11,25 @@
         color: white;
     }
 }
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1040px) */
+@media screen and (max-width: 1040px) {
+
+    .footer__text{
+        font-size: 16px;
+    }    
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 768px) {
+
+    .footer{
+        padding: 66px 120px 58px 120px;
+    }
+    .footer__text {
+        font-size: 12px;
+        width: 75%;
+    }    
+}

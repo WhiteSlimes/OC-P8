@@ -5,3 +5,23 @@
     flex-direction: column;
     margin-bottom: 46px;
 }
+
+/* Medium devices (tablets, less/equal than 1040px) */
+@media screen and (max-width: 1040px) {
+
+    .Main__About{
+        margin-top: 25px;
+        gap: 25px;
+    }
+}
+  
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 768px) {
+
+   
+    .Main__About{
+        margin-top: 19px;
+        margin-bottom: 19px;
+        gap: 20px;
+    }
+}

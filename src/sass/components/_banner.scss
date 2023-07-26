@@ -1,7 +1,7 @@
 .banner{
     margin-top : 60px;
     position: relative;
-    &_image{
+    &__image{
         height: 223px;
         border-radius: 25px;
         width: 100%;
@@ -17,3 +17,41 @@
         }
     }
 }
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1040px) */
+@media screen and (max-width: 1040px) {
+
+    .banner{
+        margin-top: 40px;
+        &__image{
+            height: 170px;
+            &-text{
+                font-size: 36px;
+                top: 55px;
+                left: 200px;
+            }
+        }
+    }
+    
+  }
+  
+  /* Small devices (phones, less than 768px) */
+  @media screen and (max-width: 768px) {
+  
+    .banner{
+        margin-top: 27px;
+        &__image{
+            height: 111px;
+            border-radius: 10px;
+            &-text{
+                font-size: 24px;
+                text-align: start;
+                left: 16px;
+                top: 32px;
+                width: 65%;
+            }
+        }
+    }
+  }

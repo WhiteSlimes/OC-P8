@@ -1,9 +1,7 @@
-.location{
+.rating{
     display: flex;
-    color: #FF6060;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    gap: 10px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -11,18 +9,16 @@
 /* Medium devices (tablets, less/equal than 1040px) */
 @media screen and (max-width: 1040px) {
 
-    .location{
-        font-size: 16px;
-        margin-bottom: 5px;
+    .rating{
+        height: 18px;
     }
 }
 
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 768px) {  
 
-    .location{
-        font-size: 14px;
-        margin-top: 5px;
-        margin-bottom: 10px;
-    }
+    .rating{
+        gap: 5px;
+        height: 13px;
+    } 
 }

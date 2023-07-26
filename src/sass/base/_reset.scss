@@ -51,3 +51,22 @@
     max-width: 1440px;
     margin: auto;
 }
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1040px) */
+@media screen and (max-width: 1040px) {
+
+  .App__HeaderMain{
+    margin: 30px 50px 0px 50px;
+  }
+  
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 768px) {
+
+  .App__HeaderMain{
+    margin: 20px 20px 0px 20px;
+  }
+}

@@ -5,3 +5,23 @@
     font-weight: 500;
     margin-top: 30px;
 }
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1040px) */
+@media screen and (max-width: 1040px) {
+
+    .title {
+        font-size: 27px;
+        margin-top: 25px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 768px) {  
+
+    .title {
+        font-size: 18px;
+        margin-top: 15px;
+    } 
+}

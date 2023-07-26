@@ -19,3 +19,31 @@
         }
     }
 }
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1040px) */
+@media screen and (max-width: 1040px) {
+
+    .header__logo{
+        width: 175px;
+    }
+    .header__link{
+        font-size: 20px
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 768px) {
+
+    .header__logo{
+        width: 145px;
+    }
+    .header__nav{
+        gap: 26px;
+    }
+    .header__link{
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}

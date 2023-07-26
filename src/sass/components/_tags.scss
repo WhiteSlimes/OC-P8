@@ -11,3 +11,29 @@
         padding: 3px 30px 3px 30px;
     }
 }
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/* Medium devices (tablets, less/equal than 1040px) */
+@media screen and (max-width: 1040px) {
+
+    .tags{
+        margin-bottom: 0px;
+        &__tag{
+            padding: 3px 25px 3px 25px;
+            font-size: 12px;
+        }
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 768px) {  
+
+    .tags{
+        &__tag{
+            padding: 3px 20px 3px 20px;
+            font-size: 12px;
+            border-radius: 5px;
+        }
+    }
+}

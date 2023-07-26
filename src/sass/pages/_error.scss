@@ -18,3 +18,43 @@
         color: #FF6060;
     }
 }
+
+/* Medium devices (tablets, less/equal than 1040px) */
+@media screen and (max-width: 1040px) {
+
+    .error{
+        margin-bottom: 50px;
+        margin-top: 139px;
+        &__title{
+            font-weight: 700;
+            font-size: 120px;
+        }
+        &__message{
+            font-size: 25px;
+            margin-top: 113px;
+            margin-bottom: 113px;
+        }
+        &__link{
+            font-size: 16px;
+        }
+    }
+}
+  
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 768px) {
+
+    .error{
+        margin-bottom: 50px;
+        margin-top: 113px;
+        text-align: center;
+        &__title{
+            font-size: 96px;
+        }
+        &__message{
+            font-size: 18px;
+        }
+        &__link{
+            font-size: 14px;
+        }
+    }
+}
