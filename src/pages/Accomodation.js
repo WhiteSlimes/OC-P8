@@ -4,6 +4,8 @@ import "../sass/pages/_accomodation.scss"
 import data from "../data.json"
 import Carousel from "../components/Carousel";
 import Title from "../components/Accomodation/Title";
+import Location from "../components/Accomodation/Location";
+import Tags from "../components/Accomodation/Tags";
 
 function Accomodation(){
     const { id } = useParams()
@@ -27,6 +29,8 @@ function Accomodation(){
                 <div className="presentation">
                     <div>
                         <Title title={accomodation.title}/>
+                        <Location location={accomodation.location}/>
+                        <Tags tags={accomodation.tags} />
                     </div>
                 </div>
                 </>

@@ -1,0 +1,13 @@
+.tags{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    &__tag{
+        display: flex;
+        background: #FF6060;
+        border-radius: 10px;
+        font-size: 14px;
+        color: white;
+        padding: 3px 30px 3px 30px;
+    }
+}
