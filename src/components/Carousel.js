@@ -24,9 +24,9 @@ function Carousel({ pictures }){
     
       return (
         <div className='carousel'>
-          <img src={ArrowLeft} alt='Previous Image' className='carousel__arrow carousel__arrow--left' onClick={handlePrevClick} />
+          <img src={ArrowLeft} alt='Previous' className='carousel__arrow carousel__arrow--left' onClick={handlePrevClick} />
           <img src={pictures[currentImageIndex]} alt="Apartment" className='carousel__image'/>
-          <img src={ArrowRight} alt='Next image' className='carousel__arrow carousel__arrow--right' onClick={handleNextClick} />
+          <img src={ArrowRight} alt='Next' className='carousel__arrow carousel__arrow--right' onClick={handleNextClick} />
     
           <div className="carousel__indicator">
             <p>{currentImageIndex + 1}/{pictures.length}</p>
